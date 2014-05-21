@@ -45,3 +45,4 @@ group :development, :test do
   gem "selenium-webdriver", '~> 2.41.0'
 end
 
+gem 'coveralls', require: false
