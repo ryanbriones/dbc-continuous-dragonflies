@@ -1,0 +1,7 @@
+<%= link_to "Create New Article", new_article_path %>
+
+<ul>
+  <% @articles.each do |article| %>
+  <li><%= article.title %> (<%= article.word_count %>) (<%= link_to "Edit", edit_article_path(article) %>)</li>
+  <% end %>
+</ul>
